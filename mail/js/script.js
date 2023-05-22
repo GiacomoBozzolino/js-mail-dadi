@@ -17,6 +17,8 @@ for (let i=0; i<email_adress.length; i++){
 
 if (flag === true) {
     console.log ('email trovata');
+    document.getElementById("avviso").innerHTML = "Email trovata!";
 } else {
     console.log ('email non trovata');
+    document.getElementById("avviso").innerHTML = "Email non trovata!";
 }
