@@ -5,13 +5,13 @@ let email_adress = ['gandalf@gmail.com', 'frodo@gmail.com', 'sam@gmail.com', 'ar
 // console.log (email_adress)
 
 let email = prompt ("Inserisci l'indirzzo email che vuoi cercare");
-let flag = false
+let flag = false;
 
 for (let i=0; i<email_adress.length; i++){  
 
     if (email_adress[i] === email) {
     //    console.log('email trovata')  
-       flag === true;
+       flag = true;
     } 
 }
 
